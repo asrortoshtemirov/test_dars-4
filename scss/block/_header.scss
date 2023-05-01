@@ -1,0 +1,29 @@
+.main-header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 44px;
+}
+
+.main-header__list {
+  display: flex;
+  align-items: center;
+}
+
+.main-header__item+.main-header__item {
+  margin-left: 33px;
+}
+
+.main-header__link {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  color: #83888F;
+  transition: all .4s ease;
+
+  &:hover {
+    color: #0E8784;
+  }
+}

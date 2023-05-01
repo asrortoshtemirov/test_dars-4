@@ -1,0 +1,114 @@
+#works {
+  padding-bottom: 200px;
+}
+
+.works__block {
+  max-width: 1045px;
+  margin: 0 auto;
+}
+
+.works__block-title {
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888F;
+  padding-bottom: 80px;
+}
+
+.works__block-circle_main {
+  display: flex;
+  position: relative;
+}
+
+.works__block-circle {
+  margin-right: 349px;
+  width: 31px;
+  height: 31px;
+  border: 2px solid #0E8784;
+  border-radius: 50%;
+  background: #FEFCF7;
+}
+
+.works__block-circle span {
+  border: 2px solid #FDD6BA;
+  display: inline-block;
+  width: 380px;
+  position: absolute;
+  z-index: -1;
+  top: 14px;
+}
+
+.works__block-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.works__block-item {
+  max-width: 285px;
+  padding-top: 67px;
+
+  &::before {
+    content: "";
+    width: 90px;
+    height: 72px;
+    background-repeat: no-repeat;
+    background-image: url(../../img/works-icon1.svg);
+    display: inline-block;
+  }
+}
+
+.works__block-item_title {
+  max-width: 255px;
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #333D4B;
+  margin-top: 38px;
+  margin-bottom: 42px;
+}
+
+.works__block-item_text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+}
+
+.works__block-item:nth-child(2)::before {
+  content: "";
+  width: 101px;
+  height: 72px;
+  background-repeat: no-repeat;
+  background-image: url(../../img/works-icon2.svg);
+  display: inline-block;
+}
+
+.works__block-item:nth-child(3)::before {
+  content: "";
+  width: 98px;
+  height: 72px;
+  background-repeat: no-repeat;
+  background-image: url(../../img/works-icon3.svg);
+  display: inline-block;
+}
+
+.works__btn {
+  margin-top: 64px;
+  padding: 15px 31px;
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #FEFCF7;
+  border-radius: 6px;
+  background-color: $primary-color;
+  cursor: pointer;
+  border: none;
+}
